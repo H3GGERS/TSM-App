@@ -12,10 +12,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Spacer()
+                .frame(height: 178)
             
             Logo()
             
             Spacer()
+                .frame(height: 48)
             
             VStack {
                 TextField(/*@START_MENU_TOKEN@*/"Email address"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
@@ -43,12 +45,22 @@ struct ContentView: View {
             }
                 
             Spacer()
+                .frame(height:48)
                 
             VStack {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Sign In".uppercased())
+                    .font(.custom("Montserrat-Bold", size: 16))
+                        .frame(width: 327, height: 40)
+//                        .padding()
+                        .background(Color("Primary"))
+                        .foregroundColor(Color("Text"))
+                        .cornerRadius(32)
                 }
             }
+            
+            Spacer()
+                .frame(height: 178)
             
         }
     }
