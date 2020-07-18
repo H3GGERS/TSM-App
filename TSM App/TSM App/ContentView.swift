@@ -11,8 +11,45 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Spacer()
+            
             Logo()
-            TextField(/*@START_MENU_TOKEN@*/"Email address"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            
+            Spacer()
+            
+            VStack {
+                TextField(/*@START_MENU_TOKEN@*/"Email address"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                .padding(8)
+                .frame(width: 327, height: 40)
+                .font(.custom("Montserrat-Regular", size: 14))
+                .foregroundColor(Color("Active Alt"))
+                .overlay(RoundedRectangle(cornerRadius: 4)
+                    .stroke(Color("Primary"), lineWidth: 1)
+                    .frame(width: 327, height: 40))
+                
+             TextField("Password", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                .padding(8)
+                .frame(width: 327, height: 40)
+                .font(.custom("Montserrat-Regular", size: 14))
+                .foregroundColor(Color("Active Alt"))
+                .overlay(RoundedRectangle(cornerRadius: 4)
+                    .stroke(Color("Primary"), lineWidth: 1)
+                    .frame(width: 327, height: 40))
+                
+                Text("Forgot your password?")
+                .font(.custom("Montserrat-Regular", size: 14))
+                .foregroundColor(Color("Primary"))
+                .frame(width: 327, alignment: .leading)
+            }
+                
+            Spacer()
+                
+            VStack {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("Sign In".uppercased())
+                }
+            }
+            
         }
     }
 }
