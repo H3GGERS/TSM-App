@@ -10,62 +10,65 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Spacer()
-                .frame(height: 178)
-            
-            Logo()
-            
-            Spacer()
-                .frame(height: 48)
-            
+        ZStack {
             VStack {
-                TextField(/*@START_MENU_TOKEN@*/"Email address"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                .padding(8)
-                .frame(width: 327, height: 40)
-                .font(.custom("Montserrat-Regular", size: 14))
-                .foregroundColor(Color("Active Alt"))
-                .overlay(RoundedRectangle(cornerRadius: 4)
-                    .stroke(Color("Primary"), lineWidth: 1)
-                    .frame(width: 327, height: 40))
+                Spacer()
+                    .frame(height: 178)
                 
-             TextField("Password", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                .padding(8)
-                .frame(width: 327, height: 40)
-                .font(.custom("Montserrat-Regular", size: 14))
-                .foregroundColor(Color("Active Alt"))
-                .overlay(RoundedRectangle(cornerRadius: 4)
-                    .stroke(Color("Primary"), lineWidth: 1)
-                    .frame(width: 327, height: 40))
+                Logo()
                 
-                Text("Forgot your password?")
-                .font(.custom("Montserrat-Regular", size: 14))
-                .foregroundColor(Color("Primary"))
-                .frame(width: 327, alignment: .leading)
-            }
+                Spacer()
+                    .frame(height: 48)
                 
-            Spacer()
-                .frame(height:48)
-                
-            VStack {
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Sign In".uppercased())
-                    .font(.custom("Montserrat-Bold", size: 16))
-                        .frame(width: 327, height: 40)
-//                        .padding()
-                        .background(Color("Primary"))
-                        .foregroundColor(Color("Text"))
-                        .cornerRadius(32)
+                VStack {
+                    TextField(/*@START_MENU_TOKEN@*/"Email address"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                    .padding(8)
+                    .frame(width: 327, height: 40)
+                    .font(.custom("Montserrat-Regular", size: 14))
+                    .foregroundColor(Color("Active Alt"))
+                    .overlay(RoundedRectangle(cornerRadius: 4)
+                        .stroke(Color("Primary"), lineWidth: 1)
+                        .frame(width: 327, height: 40))
+                    
+                 TextField("Password", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                    .padding(8)
+                    .frame(width: 327, height: 40)
+                    .font(.custom("Montserrat-Regular", size: 14))
+                    .foregroundColor(Color("Active Alt"))
+                    .overlay(RoundedRectangle(cornerRadius: 4)
+                        .stroke(Color("Primary"), lineWidth: 1)
+                        .frame(width: 327, height: 40))
+                    
+                    Text("Forgot your password?")
+                    .font(.custom("Montserrat-Regular", size: 14))
+                    .foregroundColor(Color("Primary"))
+                    .frame(width: 327, alignment: .leading)
                 }
+                    
+                Spacer()
+                    .frame(height:48)
+                    
+                VStack {
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("Sign In".uppercased())
+                        .font(.custom("Montserrat-Bold", size: 16))
+                            .frame(width: 327, height: 40)
+    //                        .padding()
+                            .background(Color("Primary"))
+                            .foregroundColor(Color("Text"))
+                            .cornerRadius(32)
+                    }
+                }
+                
+                Spacer()
+                    .frame(height: 178)
+                
             }
-            
-            Spacer()
-                .frame(height: 178)
-            
         }
+        .background(Color.red)
+        .edgesIgnoringSafeArea()
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

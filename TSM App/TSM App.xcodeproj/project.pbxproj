@@ -460,13 +460,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TSM App/Preview Content\"";
+				DEVELOPMENT_TEAM = P6UBR32K48;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "TSM App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kyle.TSM-App";
+				PRODUCT_BUNDLE_IDENTIFIER = TSMledger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,13 +480,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TSM App/Preview Content\"";
+				DEVELOPMENT_TEAM = P6UBR32K48;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "TSM App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kyle.TSM-App";
+				PRODUCT_BUNDLE_IDENTIFIER = TSMledger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
