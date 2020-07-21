@@ -21,6 +21,21 @@
 		6F4FC0D624C228850004DF4C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FC0A424C228850004DF4C /* Montserrat-Regular.ttf */; };
 		6F4FC0D724C228850004DF4C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FC0A424C228850004DF4C /* Montserrat-Regular.ttf */; };
 		6F4FC0D824C228850004DF4C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FC0A424C228850004DF4C /* Montserrat-Regular.ttf */; };
+		6F534EC724C74D27006E200E /* TabTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534EC624C74D27006E200E /* TabTest.swift */; };
+		6F534EC824C74D27006E200E /* TabTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534EC624C74D27006E200E /* TabTest.swift */; };
+		6F534EC924C74D27006E200E /* TabTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534EC624C74D27006E200E /* TabTest.swift */; };
+		6F534ECB24C74DC0006E200E /* Tab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ECA24C74DC0006E200E /* Tab1.swift */; };
+		6F534ECC24C74DC0006E200E /* Tab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ECA24C74DC0006E200E /* Tab1.swift */; };
+		6F534ECD24C74DC0006E200E /* Tab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ECA24C74DC0006E200E /* Tab1.swift */; };
+		6F534ECF24C74DCF006E200E /* Tab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ECE24C74DCF006E200E /* Tab2.swift */; };
+		6F534ED024C74DCF006E200E /* Tab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ECE24C74DCF006E200E /* Tab2.swift */; };
+		6F534ED124C74DCF006E200E /* Tab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ECE24C74DCF006E200E /* Tab2.swift */; };
+		6F534ED324C74DD7006E200E /* Tab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ED224C74DD7006E200E /* Tab3.swift */; };
+		6F534ED424C74DD7006E200E /* Tab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ED224C74DD7006E200E /* Tab3.swift */; };
+		6F534ED524C74DD7006E200E /* Tab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ED224C74DD7006E200E /* Tab3.swift */; };
+		6F534ED824C74DEB006E200E /* Tab4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ED724C74DEB006E200E /* Tab4.swift */; };
+		6F534ED924C74DEB006E200E /* Tab4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ED724C74DEB006E200E /* Tab4.swift */; };
+		6F534EDA24C74DEB006E200E /* Tab4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534ED724C74DEB006E200E /* Tab4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +72,11 @@
 		6F4FC06324C206CF0004DF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4FC09524C228840004DF4C /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		6F4FC0A424C228850004DF4C /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		6F534EC624C74D27006E200E /* TabTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTest.swift; sourceTree = "<group>"; };
+		6F534ECA24C74DC0006E200E /* Tab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1.swift; sourceTree = "<group>"; };
+		6F534ECE24C74DCF006E200E /* Tab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2.swift; sourceTree = "<group>"; };
+		6F534ED224C74DD7006E200E /* Tab3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3.swift; sourceTree = "<group>"; };
+		6F534ED724C74DEB006E200E /* Tab4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +131,11 @@
 				6F4FC03F24C206CE0004DF4C /* AppDelegate.swift */,
 				6F4FC04124C206CE0004DF4C /* SceneDelegate.swift */,
 				6F4FC04324C206CE0004DF4C /* ContentView.swift */,
+				6F534EC624C74D27006E200E /* TabTest.swift */,
+				6F534ECA24C74DC0006E200E /* Tab1.swift */,
+				6F534ECE24C74DCF006E200E /* Tab2.swift */,
+				6F534ED224C74DD7006E200E /* Tab3.swift */,
+				6F534ED724C74DEB006E200E /* Tab4.swift */,
 				6F4FC04524C206CF0004DF4C /* Assets.xcassets */,
 				6F4FC04A24C206CF0004DF4C /* LaunchScreen.storyboard */,
 				6F4FC04D24C206CF0004DF4C /* Info.plist */,
@@ -291,9 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F534ED824C74DEB006E200E /* Tab4.swift in Sources */,
 				6F4FC04024C206CE0004DF4C /* AppDelegate.swift in Sources */,
 				6F4FC04224C206CE0004DF4C /* SceneDelegate.swift in Sources */,
+				6F534ECF24C74DCF006E200E /* Tab2.swift in Sources */,
+				6F534ED324C74DD7006E200E /* Tab3.swift in Sources */,
 				6F4FC04424C206CE0004DF4C /* ContentView.swift in Sources */,
+				6F534ECB24C74DC0006E200E /* Tab1.swift in Sources */,
+				6F534EC724C74D27006E200E /* TabTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +332,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F4FC05724C206CF0004DF4C /* TSM_AppTests.swift in Sources */,
+				6F534EC824C74D27006E200E /* TabTest.swift in Sources */,
+				6F534ED924C74DEB006E200E /* Tab4.swift in Sources */,
+				6F534ED024C74DCF006E200E /* Tab2.swift in Sources */,
+				6F534ED424C74DD7006E200E /* Tab3.swift in Sources */,
+				6F534ECC24C74DC0006E200E /* Tab1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +345,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F4FC06224C206CF0004DF4C /* TSM_AppUITests.swift in Sources */,
+				6F534EC924C74D27006E200E /* TabTest.swift in Sources */,
+				6F534EDA24C74DEB006E200E /* Tab4.swift in Sources */,
+				6F534ED124C74DCF006E200E /* Tab2.swift in Sources */,
+				6F534ED524C74DD7006E200E /* Tab3.swift in Sources */,
+				6F534ECD24C74DC0006E200E /* Tab1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
