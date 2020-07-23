@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  login.swift
 //  TSM App
 //
 //  Created by Kyle Hegge on 7/17/20.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct login: View {
     var body: some View {
         VStack {
             Spacer()
@@ -66,9 +66,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct login_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        login()
     }
 }
 
