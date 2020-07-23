@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Tab3: View {
     var body: some View {
-        Text("Gallery").font(.largeTitle)
+        Text("Tasks & Reports").font(.largeTitle)
     }
 }
 

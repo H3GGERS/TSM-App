@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Tab4: View {
     var body: some View {
-        Text("Profile").font(.largeTitle)
+        Text("Articles").font(.largeTitle)
     }
 }
 
